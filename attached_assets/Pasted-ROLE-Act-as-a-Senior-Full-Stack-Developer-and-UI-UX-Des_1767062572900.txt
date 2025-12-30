@@ -1,0 +1,77 @@
+ROLE:
+Act as a Senior Full-Stack Developer and UI/UX Designer specializing in "Cyber-Minimalism."
+PROJECT GOAL:
+Build a high-performance, interactive, and responsive React website for "TEMOX" (Advanced IT & Cybersecurity Solutions). The site must feel "alive" with animations but remain professional and fast.
+🛠️ 1. TECH STACK & ARCHITECTURE (The Logic)
+• Framework: React (Vite) or Next.js.
+• Styling: Tailwind CSS (for layout) + Custom CSS for neon glows.
+• Animations: Framer Motion (Critical for smooth entry, hover, and page transitions).
+• Routing: React Router (v6) with dynamic routing for service pages (/services/:slug).
+• Icons: Lucide-React or Heroicons.
+• Form Handling: Logic for EmailJS integration (simulate the API call with console.log and success state if API keys aren't present).
+🎨 2. DESIGN SYSTEM (The Vibe)
+• Theme: "Dark Future." Deep black/gray backgrounds (#0a0a0a to #1a1a1a).
+• Accent Colors:
+• Primary: Cyber Red (#ff2a2a)
+• Secondary: Electric Purple (#7d00de)
+• Highlight: Neon Blue (#00f0ff)
+• UI Style: Glassmorphism. Cards and Navbars should have backdrop-filter: blur(10px), slight transparency, and thin distinct borders.
+• Typography: 'Inter' or 'Orbitron' (headers) for a tech feel.
+🧩 3. COMPONENT STRUCTURE & FEATURES
+A. Navigation (Global)
+• Sticky Navbar: Blurry glass effect on scroll.
+• Links: Home, Services, About, Contact.
+• CTA Button: "Get Started" (Glows on hover).
+• Mobile: Hamburger menu with smooth slide-in animation.
+B. Hero Section (Homepage)
+• Visual: Dark gradient background or abstract mesh particles.
+• Headline: "TEMOX – Advanced Technology & Digital Solutions" (Animate text appearance).
+• Sub-headline: "Cybersecurity • Networking • Development • Smart Systems".
+• Actions:
+• Primary Button: "View Services" (Scroll to grid).
+• Secondary Button: "Request Service" (Navigate to Contact).
+C. Services Grid (Dynamic Component)
+• Data Source: Create a servicesData array (JSON) containing ID, Title, Slug, Icon, ShortDesc, and FullDesc.
+• The Cards:
+• Glassmorphism background.
+• Hover Effect: Scale up slightly (1.05), border glows Red/Purple.
+• Click Action: Navigate to /services/{slug}.
+• List of Services (Must Include):
+1. Cybersecurity & Ethical Hacking
+2. Networking & Infrastructure
+3. Software Development
+4. IT Support & Maintenance
+5. CCTV & Surveillance Systems
+6. Smart Systems & IoT
+7. Cloud & Server Solutions
+8. Design & Branding
+D. Dynamic Service Detail Page (/services/:slug)
+• Logic: Don't hardcode 8 pages. Create ONE template component that renders data based on the URL parameter.
+• Layout:
+• Header: Service Title & Icon.
+• Body: Detailed description (pass mock text for now).
+• Sidebar/Bottom: "Ready to start?" CTA box linking to the Request Form with the service pre-selected.
+E. "Request a Service" Form (Functional Logic)
+• Fields: Full Name, Email, Phone, Service Type (Dropdown mapped to servicesData), Project Details, File Upload (UI only).
+• Validation: Ensure Email is valid and fields are not empty before submitting.
+• State Management:
+• Idle: Show form.
+• Submitting: Show loading spinner (disable button).
+• Success: Show "Message Sent to t.__x@tammam.online!" with a checkmark animation.
+• Error: "Something went wrong."
+F. Footer
+• Socials: Instagram (@t.__x), GitHub (@tammam101), Email (t.__x@tammam.online).
+• Copyright: "© 2025 TEMOX. All rights reserved."
+• Links: Quick links to services and "Privacy Policy."
+🚀 4. ANIMATION GUIDELINES (Framer Motion)
+1. Page Load: Staggered fade-in for hero elements.
+2. Scroll: Section titles slide up as they enter the viewport.
+3. Buttons: whileHover={{ scale: 1.05 }} and whileTap={{ scale: 0.95 }}.
+📝 5. INSTRUCTIONS FOR THE DEVELOPER
+1. Initialize the project using the specified stack.
+2. Create the servicesData constant first.
+3. Implement the Router.
+4. Build the layout (Nav/Footer).
+5. Build the Pages.
+6. Ensure the Contact Form onSubmit logs the data object to the console (simulating the email send).
+Generate the full React project structure and key component code now
