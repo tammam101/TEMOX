@@ -1,0 +1,68 @@
+import { Shield, Network, Code, Headphones, Cctv, Cpu, Cloud, Palette } from "lucide-react";
+
+export const servicesData = [
+  {
+    id: "1",
+    title: "Cybersecurity & Ethical Hacking",
+    slug: "cybersecurity-ethical-hacking",
+    icon: Shield,
+    shortDesc: "Advanced threat detection and penetration testing to secure your digital assets.",
+    fullDesc: "Our Cybersecurity & Ethical Hacking services provide comprehensive protection against modern digital threats. We employ state-of-the-art penetration testing, vulnerability assessments, and real-time monitoring to ensure your infrastructure is impenetrable. From securing sensitive data to training your staff on security best practices, TEMOX is your shield in the digital age.",
+  },
+  {
+    id: "2",
+    title: "Networking & Infrastructure",
+    slug: "networking-infrastructure",
+    icon: Network,
+    shortDesc: "Robust and scalable network solutions for enterprise environments.",
+    fullDesc: "We design, deploy, and maintain high-performance network infrastructures tailored to your business needs. Whether you need structured cabling, enterprise-grade Wi-Fi, or secure VPN configurations, our experts ensure your connectivity is fast, reliable, and secure.",
+  },
+  {
+    id: "3",
+    title: "Software Development",
+    slug: "software-development",
+    icon: Code,
+    shortDesc: "Custom software solutions built with cutting-edge technologies.",
+    fullDesc: "From web applications to complex enterprise software, our development team builds scalable, efficient, and user-centric solutions. We specialize in modern stacks, ensuring your software is future-proof and capable of growing with your business.",
+  },
+  {
+    id: "4",
+    title: "IT Support & Maintenance",
+    slug: "it-support-maintenance",
+    icon: Headphones,
+    shortDesc: "24/7 proactive monitoring and support for your IT ecosystem.",
+    fullDesc: "Minimize downtime with our proactive IT support and maintenance services. We offer remote and on-site assistance, system updates, and rapid troubleshooting to keep your operations running smoothly around the clock.",
+  },
+  {
+    id: "5",
+    title: "CCTV & Surveillance Systems",
+    slug: "cctv-surveillance",
+    icon: Cctv,
+    shortDesc: "High-definition security systems for complete premise monitoring.",
+    fullDesc: "Protect your physical assets with our advanced CCTV and surveillance solutions. We install AI-powered cameras, remote monitoring systems, and secure storage solutions to give you complete visibility and peace of mind.",
+  },
+  {
+    id: "6",
+    title: "Smart Systems & IoT",
+    slug: "smart-systems-iot",
+    icon: Cpu,
+    shortDesc: "Automated smart solutions for homes and businesses.",
+    fullDesc: "Step into the future with our Smart Systems and IoT integrations. We connect devices, automate processes, and create intelligent environments that enhance efficiency, comfort, and control.",
+  },
+  {
+    id: "7",
+    title: "Cloud & Server Solutions",
+    slug: "cloud-server-solutions",
+    icon: Cloud,
+    shortDesc: "Scalable cloud architecture and secure server management.",
+    fullDesc: "Migrate, manage, and optimize your cloud infrastructure with TEMOX. We offer hybrid cloud solutions, server virtualization, and secure data storage strategies to ensure your business is agile and resilient.",
+  },
+  {
+    id: "8",
+    title: "Design & Branding",
+    slug: "design-branding",
+    icon: Palette,
+    shortDesc: "Creative visual identity and branding strategies.",
+    fullDesc: "Make a lasting impression with our Design & Branding services. Our creative team crafts unique logos, brand identities, and visual assets that resonate with your audience and communicate your core values effectively.",
+  },
+];
